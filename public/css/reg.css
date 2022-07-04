@@ -1,0 +1,102 @@
+article {
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+  }
+section{
+border: 10px solid #FF9900;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#profilo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+  
+  label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(147, 147, 147);
+    
+  }
+  
+  input {
+    margin-left: 0.5em;
+  }
+
+  .login{
+      font-size: 10px;
+      color:rgb(147, 147, 147);
+  }
+  #login:hover{
+    color: rgb(66, 72, 72);
+  }
+
+  h2{
+      font-size: 30px;
+      color: #FF9900;
+  }
+
+  #btn{
+      background-color: rgb(147, 147, 147);
+      color:white;
+      font-weight: bold;
+      width: 100%;
+      padding: 5px;
+      border: 0px;
+  }
+  #btn:hover{
+      background-color:rgb(66, 72, 72) ;
+  }
+
+#mostra{
+margin-right:-0.5em ;    
+width: 150px;
+
+}
+.error {
+  padding: 4px 10px;
+  
+  border-radius: 7px;
+  color: #fa1c2c;
+  margin: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.errorj  {
+  border-color: #fa1c2c;
+}
+
+@media (max-width: 500px){
+    #container{
+      width: 300px;
+    }
+    #logo h1{
+      display: none;
+    }
+    #profilo{
+     
+      margin-left: auto;
+    }
+    input{
+      background-color: white;
+      border: 0px;
+    }
+    
+}

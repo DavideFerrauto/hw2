@@ -1,0 +1,180 @@
+nav  {
+  
+    
+    padding-top: 30px;  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff9900;
+    height: 140px;
+    border-radius: 20px;
+    
+}
+a {
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+a:hover
+{
+    color: rgb(66, 72, 72);
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    
+    background-color: rgb(122, 121, 121);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    height: 20vh;
+    width: 100vw;
+    margin-left: -10px;
+    
+}
+#info {
+    display: flex;
+    align-items: center ;
+    justify-content:space-around;    
+}
+  
+.intro{
+      display: flex;
+      justify-content: center;
+}
+
+#logo{
+    display: flex;
+    align-items: center ;
+    justify-content:space-around;
+}
+h1{
+    color: #FF9900;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 7px solid #FF9900;
+}
+.dati{
+    color:crimson;
+    background-color:rgb(220, 220, 220);
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    
+}
+.container{
+    
+    
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  /*  align-content: space-between;
+    
+    justify-content: space-between;
+    */
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.imglibro{
+    border: 5px solid darkgray;
+}
+.att{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+   flex-grow:1;
+}
+#gen1{
+ background-color:rgb(244, 246, 148);   
+ border: 0px;
+ border-radius: 10px;
+ font-size: 20px;
+ padding: 4px;
+ 
+}
+#gen1:hover{
+background-color: yellow;
+
+}
+#gen2{
+    background-color:aquamarine;   
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 4px;
+}
+#gen2:hover{
+    background-color: aqua;
+    
+    }
+#gen3{
+    background-color:lightgreen;   
+    border: 0px ;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 4px;
+}
+#gen3:hover{
+    background-color:rgb(95, 255, 95);
+    
+    }
+    #saluto{
+        color: white;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .hidden {
+        display: none;
+      }
+
+.liked{
+    border: 2px dashed rgb(197, 1, 1);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+@media (max-width: 500px){
+    .dati{
+        
+       font-size: 6px;
+    }
+    .imglibro img{
+        width: 300px;
+        height: 300px;
+    }
+    .imglibro{
+        width: 300px;
+        height: 300px;
+    }
+    nav{
+        height: 80px;
+        width: 100vw;
+    }
+    a{
+        font-size: 8px;
+    }
+    #login img{
+        width: 25px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,133 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+.choice-grid , #library-view ,  #library-view2{
+    align-content: space-between;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.choice-grid div.checked{
+    background-color: #cfe3ff;
+}
+
+.choice-grid div , #library-view div{
+    background-color: #f4f4f4;
+    box-sizing: border-box; 
+   /* width: calc(32.5% - 11px);/*/
+   width: 32%;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+.opacity
+{
+    opacity: 0.33;
+}
+.hidden {
+    display: none;
+  }
+
+.choice-grid div img{
+    width: 100%;
+    height: 90%;
+}
+#esito
+{
+ margin-top: 40px;
+ background-color: khaki;  
+ padding: 20px; 
+ display: none;
+}
+
+#title
+{
+    margin-top: 18px;
+}
+
+button{
+    background-color:  #cecece;
+    width: 100%;
+    height: 50px;
+    margin-top: 18px;
+}
+button:hover{
+    background-color: #e0e0e0;
+}
+#home{
+    color:rgb(66, 72, 72) ;
+    text-decoration: none;
+}
+#modal-view{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+
+
+    background-color: rgba(0,0,0,0.9);
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-view img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#modal-view.hidden{
+    display: none;
+}
+.no-scroll{
+    overflow: hidden;
+}
+
+/*
+#library-view {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  */
+  #library-view .book, #library-view2 .book{
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #library-view img , #library-view2 img{
+    max-width: 100%;
+  }
+
+form{
+    margin: 20px ;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 700px){
+   
+    article{
+        width: 95%;
+    }
+}
+@media (max-width: 500px){
+    .choice-grid div{
+        
+       width: 49%;
+    }
+}
